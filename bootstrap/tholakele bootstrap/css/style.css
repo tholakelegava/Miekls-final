@@ -1,0 +1,165 @@
+body{margin: 0;
+padding: 0;}
+
+.Navbar{
+height: 100px;
+width: 100%;
+ background-color: rgb(45,62, 80);
+display: flex;
+align-items: center;
+justify-content: space-around;
+color: white;
+
+}
+.links{
+    display: flex;
+    gap: 100px;
+}
+       
+
+.Portfolio-section{
+    background-color: rgb(86, 185, 155);margin: top 2%; ;
+    height: 500px;
+}
+ 
+ 
+.Portfolio-container .Portfolio-section img{
+justify-content: center;margin-bottom: 10%;
+}
+.Portfolio-section{
+    text-align: center;
+    color: white;
+}
+ .Navbar p{
+    gap: 100px;
+    color: white;
+    justify-content: center;
+
+}
+.links p {display: flex;gap: 20px;}
+
+.Portfolio-section-2{
+    background-color:white;margin: top 2%; ;
+    height: 500px;
+}
+.Portfolio-section-2  {
+    justify-content: center;margin-bottom: 4%;
+    }
+.pot{
+    color: rgb(45,62, 80)
+    font-size: 20px;
+}
+.Portfolio-section-2 {
+text-align: center;
+}
+
+
+.gallery{margin-top: 25px;
+    flex-direction: row;
+    display: flex;gap: 25px;
+    width: 400px;
+    height: 200px;
+    margin-left: 400px;
+    justify-content: center; 
+}
+
+.gallery img{
+    border-radius: 10px;
+}
+
+.photo{
+    flex-direction: row;
+    display: flex;gap: 25px;
+    width: 400px;
+    height: 200px;
+    margin-left: 400px; 
+    margin-top: 25px;
+    justify-content: center;
+}
+.photo img{
+    border-radius: 10px;
+}
+
+.about-section{
+    background-color: rgb(81, 185, 153);margin-top: 50px; ;
+    height: 500px;
+}
+
+.about-section h3{ color:white ;
+display: flex;justify-content: center;}
+.text{
+    display: flex;
+    color: white;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.Free Download{margin: bottom 50px;text-align: end;
+
+}
+.contact-me {background-color: white;margin-top: 50px;
+    height: 500px;
+
+}
+.contact-me .matext p  {display: flex;column-gap: 30%;flex-direction: column; margin: left 450px; text-align: left;
+
+}
+.matext hr{
+width: 60%;
+display: flex;
+align-self: baseline;
+}
+.contact-me h3{
+    color: rgb(45,62, 80);
+}
+.send{background-color:rgb(81, 185, 153) ;height: 40px;margin-left: 450px;width: 60px;justify-content: center;
+
+}
+.footer{background-color:rgb(45,62, 80); height: 200px;margin-top: 50px;
+
+}
+.footer{display: flex;justify-content: center;gap: 100px;color: white;
+}
+ .social-media{
+    display: flex;
+    flex-direction: column;
+ } 
+      
+ .social-media img{
+    height: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50%;
+ }
+
+.matext p{
+    margin-left: 260px;
+}
+
+
+
+.Around-the-web {
+    display: flex;text-align: center;
+
+}
+.about-freelancer {color: white;display: flex;text-align: right;
+
+}
+
+
+
+.last {
+    width: 100%;
+    height: 60px;
+    background: #1a252f;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.last {
+    color:white;
+}
+
+
+
