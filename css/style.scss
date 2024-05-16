@@ -49,9 +49,19 @@ table {
 	border-spacing: 0;
 }
 // phone styles
-body{
+*{
     overflow-x: hidden;
 }
+
+
+    .pc-nav{
+        display: block;
+        ul{
+            gap: 1em;
+        }
+    }
+    
+
 .banner{
     .background-image{
         height: 100vh;
@@ -73,6 +83,7 @@ body{
         width: 100%;
         align-items: center;
         justify-content: space-between;
+        
     }
     .hamburger{
         border: 2px solid brown;
@@ -369,15 +380,15 @@ body{
             }
         }
         .our{
-            display: flex;
+            
             flex-direction: column;
             .last{
                 display: flex;
                 flex-direction: row;
                 .imgs{
-                    display: flex;
-                    gap: 10px;
-                    height: 100px;
+                    width: 50px;
+                    gap: 5px;
+                    height: 60px;
                     
 
                 }

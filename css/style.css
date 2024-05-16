@@ -52,8 +52,15 @@ table {
   border-spacing: 0;
 }
 
-body {
+* {
   overflow-x: hidden;
+}
+
+.pc-nav {
+  display: block;
+}
+.pc-nav ul {
+  gap: 1em;
 }
 
 .banner .background-image {
@@ -314,7 +321,6 @@ body {
   flex-direction: column;
 }
 .footers .footer .our {
-  display: flex;
   flex-direction: column;
 }
 .footers .footer .our .last {
@@ -322,9 +328,9 @@ body {
   flex-direction: row;
 }
 .footers .footer .our .last .imgs {
-  display: flex;
-  gap: 10px;
-  height: 100px;
+  width: 50px;
+  gap: 5px;
+  height: 60px;
 }
 
 /*

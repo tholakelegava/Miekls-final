@@ -12,16 +12,60 @@
         <div class="background-image">
             <div class="overlay">
         <nav class="mobile-nav">
-            <img src="./images/MF-Site-Logo-small-e1586445460556 1.jpg" alt="">
-            <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-
-            </div>
+            <!-- <img src="./images/MF-Site-Logo-small-e1586445460556 1.jpg" alt="" class="dom">
+            <div class="container">
+                <nav class="hamburger">
+                    <div class="line line1"></div>
+                    <div class=" line middle"></div>
+                    <div class=" line line2"></div>
+                </nav>
+                
+            </div> -->
+            <nav class="navbar bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <img src="./images/MF-Site-Logo-small-e1586445460556 1.jpg" alt="">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Miekles</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Donations</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Project & News</a></li>
+                            <li><a class="dropdown-item" href="#">Events</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </nav>
         <div class="nav-container">
-            <nav class="pc-nav">
+            <nav class="pc-nav" id="pc-nav">
 
                 <div class="nav-icons"></div>
                 <div class="center">
@@ -233,6 +277,8 @@ through initiatives protecting wildlife and the environment.To create an
         </section>
 
     </section>
+    <script src="./script.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
     
 </body>
 </html>
